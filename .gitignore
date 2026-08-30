@@ -1,0 +1,49 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnpm-store/
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Local source images retained for editing; optimized WebP assets are used by the site.
+/public/avatar-cutout.png
+/public/avatar-higgsfield.png
+/public/avatar.png
+/public/hero-jahanzaib.png
+/public/project-aurelio.png
+/public/project-fieldpost.png
+/public/project-kestrel.png
+/public/project-marloe.png
+/public/project-northgate.png
+/public/project-vantor.png
