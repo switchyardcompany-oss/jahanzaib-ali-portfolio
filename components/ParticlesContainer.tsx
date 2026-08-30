@@ -13,13 +13,14 @@ const particlesOptions: ISourceOptions = {
   },
   fpsLimit: 60,
   interactivity: {
+    detects: "window",
     events: {
       onClick: {
         enable: false,
         mode: "push",
       },
       onHover: {
-        enable: false,
+        enable: true,
         mode: "repulse",
       },
       resize: true,

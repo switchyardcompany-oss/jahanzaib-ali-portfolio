@@ -47,3 +47,5 @@ next-env.d.ts
 /public/project-marloe.png
 /public/project-northgate.png
 /public/project-vantor.png
+
+.vercel
