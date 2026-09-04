@@ -10,12 +10,12 @@ import "swiper/css/pagination";
 
 // Illustrative concepts, not documented client projects.
 const projects = [
-  { title: "Northgate Commerce Dashboard", category: "Web application · 2026 · Next.js, Supabase, TypeScript", path: "/project-northgate.webp" },
-  { title: "Aurelio Studio Rebuild", category: "WordPress · Elementor · 2025 · Performance, SEO", path: "/project-aurelio.webp" },
-  { title: "Vantor Leads Landing System", category: "Landing pages · 2025 · CRO, Google Ads", path: "/project-vantor.webp" },
-  { title: "Fieldpost Agency Platform", category: "CMS dashboard · 2025 · Sanity CMS, React, REST APIs", path: "/project-fieldpost.webp" },
-  { title: "Marloe Apparel Storefront", category: "E-commerce · 2025 · Next.js, Stripe", path: "/project-marloe.webp" },
-  { title: "Kestrel Analytics Suite", category: "SaaS dashboard · 2026 · Next.js, REST APIs, TypeScript", path: "/project-kestrel.webp" },
+  { title: "Northgate Commerce Dashboard", category: "Web application · 2026 · Next.js, Supabase, TypeScript", path: "/project-northgate-generated.png" },
+  { title: "Aurelio Studio Rebuild", category: "WordPress · Elementor · 2025 · Performance, SEO", path: "/project-aurelio-generated.png" },
+  { title: "Vantor Leads Landing System", category: "Landing pages · 2025 · CRO, Google Ads", path: "/project-vantor-generated.png" },
+  { title: "Fieldpost Agency Platform", category: "CMS dashboard · 2025 · Sanity CMS, React, REST APIs", path: "/project-fieldpost-generated.png" },
+  { title: "Marloe Apparel Storefront", category: "E-commerce · 2025 · Next.js, Stripe", path: "/project-marloe-generated.png" },
+  { title: "Kestrel Analytics Suite", category: "SaaS dashboard · 2026 · Next.js, REST APIs, TypeScript", path: "/project-kestrel-generated.png" },
 ];
 
 const chunk = <T,>(items: T[], size: number): T[][] =>

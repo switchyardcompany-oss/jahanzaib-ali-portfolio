@@ -174,7 +174,7 @@ const ContactForm = () => {
       autoCapitalize="off"
       noValidate
     >
-      <div className="flex gap-x-6 w-full">
+      <div className="flex flex-col gap-6 w-full sm:flex-row">
         <div className="flex-1 min-w-0">
           <input
             type="text"
@@ -291,8 +291,8 @@ const Contact = () => {
   const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
 
   return (
-    <div className="h-full bg-primary/30 overflow-y-auto">
-      <div className="container mx-auto py-32 text-center xl:text-left flex flex-col items-center justify-center h-full gap-y-10">
+    <div className="min-h-[calc(100svh-5rem)] bg-primary/30 xl:h-full xl:overflow-y-auto">
+      <div className="container mx-auto py-36 text-center xl:text-left flex flex-col items-center justify-center xl:h-full gap-y-10 xl:py-32">
         <div className="flex flex-col w-full max-w-175">
           <motion.h2
             variants={fadeIn("up", 0.2)}
