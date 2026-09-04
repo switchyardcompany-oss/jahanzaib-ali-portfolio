@@ -9,8 +9,8 @@ import { fadeIn } from "@/variants";
 
 const Work = () => {
   return (
-    <div className="min-h-[calc(100svh-5rem)] bg-primary/30 py-36 flex items-center xl:h-full">
-      <Circles />
+    <div className="min-h-[calc(100svh-5rem)] bg-primary/30 py-24 pt-28 flex items-start xl:items-center xl:h-full xl:py-36">
+      <div className="hidden xl:block"><Circles /></div>
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
@@ -46,7 +46,7 @@ const Work = () => {
           </motion.div>
         </div>
       </div>
-      <Bulb />
+      <div className="hidden xl:block"><Bulb /></div>
     </div>
   );
 };
